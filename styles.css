@@ -58,7 +58,7 @@ ul li, a{
     border-radius: 10px;
 }
 .H-1 div{
-    border: 2px solid purple;
+    border: none;
     width: auto;
     height: auto;
 }
@@ -79,4 +79,13 @@ ul li, a{
 .p-2{
     font-size: 25px;
     margin-bottom: 10px;
+}
+.H-2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.H-2 div{
+    border: 2px solid purple;
+    width: 300px;
+    height: 250px;
 }
