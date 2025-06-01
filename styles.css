@@ -1,0 +1,82 @@
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: "Roboto", sans-serif;
+}
+
+
+#section-1{
+  height: auto;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+header div{
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+ul li, a{
+    text-decoration: none;
+    color: gainsboro;
+    padding:10px ;
+}
+ a:hover{
+    background-color: rgb(28, 199, 28);
+}
+
+/*STYLING THE SECOND SECTION*/
+
+#section-2{
+    padding-top: 29px;
+    padding-left: 70px;
+    padding-right: 40px;
+    height: auto;
+}
+
+.hero{
+    background-color: aliceblue;
+}
+.H-1{
+    padding-top: 89px;
+    padding-left: 45px;
+    width: 720px;
+    height: 500px;
+    border: none;
+    color: white;
+    background-image: url(download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.H-1 div{
+    border: 2px solid purple;
+    width: auto;
+    height: auto;
+}
+.H-1 button{
+    background-color: white;
+    color: green;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 130px;
+}
+.p-1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.p-2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
