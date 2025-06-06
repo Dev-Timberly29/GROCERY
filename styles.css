@@ -211,24 +211,26 @@ margin-top: 7px;
 #section-4{
     padding-left: 45px;
     padding-right: 30px;
-    height: 100vh;
+    height: 190vh;
 }
 .PS{
     background-color:rgb(216, 233, 238);
-    border: 3px solid black;
+    border: none;
     height: 600px;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: none;
+    width: 1299px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .PSS{
-    width: 220px;
+    width: 260px;
     height: 300px;
     border: 1px solid gainsboro;
     background-color: white;
 }
 .PSS:hover{
-    box-shadow: 0px 0px 15px green;
+    box-shadow: 5px 5px 15px green;
     svg{
      background-color: green;
      border-radius: 100%;
@@ -247,7 +249,7 @@ margin-top: 7px;
      
 }
 .PSS-1 button{
-    background-color: orange;
+    background-color: rgb(255, 34, 0);
     color: white;
     padding: 6px;
     border-radius: 5px;
@@ -277,6 +279,179 @@ margin-top: 7px;
     background-color: white;
     background-image: url(Premium\ Photo\ _\ Fresh\ chinese\ cabbage\ isolated\ on\ a\ white\ background.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
-       
+    background-size: contain;   
+}
+.PSS-4{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(Lechuga\ crespa.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.PSS-5{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(Eggplants.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.PSS-6{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url([Found]Prick\ the\ Potatoe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.PSS-7{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(corn.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.PSS-8{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(Rodale\ Wellness\ -\ Latest\ Health\ and\ Wellness\ Tips\ &\ Product\ Reviews.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.PSS-9{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(capsicum.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.PSS-9 button{
+    color: white;
+     background-color: rgb(255, 25, 0);
+     padding: 6px;
+     border: none;
+     border-radius: 5px;
+}
+.PSS-10{
+      width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-image: url(mybox.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+.l-cardd{
+    margin-top: 50px;
+    width: 1295px;
+    background-color:white;
+    height: 500px;
+    display: flex;
+    gap: 30px;
+}
+.ll-cardd-1{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url(blue.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+.ll-cardd-1 button{
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 180px;
+    color: green;
+    text-align: center;
+    border: none;
+}
+.ll-cardd-1 button:hover{
+    cursor: pointer;
+    background-color: rgb(212, 222, 232);
+}
+.ll-cardd-2{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+     background-image: url(beaf.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-top: 30px;
+     text-align: center;
+}
+.ll-cardd-2 button{
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 180px;
+    color: green;
+    text-align: center;
+    border: none;
+}
+.ll-cardd-2 button:hover{
+    background-color: rgb(214, 224, 233);
+    cursor: pointer;
+}
+.ll-cardd-3{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url(yellow.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+.ll-cardd-3 button{
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 180px;
+    color: green;
+    text-align: center;
+    border: none;
+}
+.ll-cardd-3 button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.pp-1{
+    color: white;
+}
+.pp-2{
+    color: white;
+    font-size: 40px;
+    font-weight:590 ;
+}
+.pp-3{
+    color: white;
+    margin-top: 20px;
+}
+#section-5{
+    height: 100vh;
+    padding-left: 45px;
+    padding-right: 30px;
 }
