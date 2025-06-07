@@ -607,10 +607,10 @@ h4{
     height: 320px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom: 2px solid blue;
      background-image: url(blue.jpeg);
      background-repeat: no-repeat;
      background-size: cover;
+     padding-left: 20px;
      
 }
 .BB-CARDIM-2{
