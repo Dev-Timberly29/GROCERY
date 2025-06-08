@@ -460,19 +460,21 @@ margin-top: 7px;
     background-color: rgb(231, 231, 231);
 }
 .A-CARD{
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 20PX;
-    border:none;
-    width: 100%;
-    height: 610px;
-    padding-top: 10px;
+    border:2px solid transparent;
+    width: 1300px;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.w-card{
+    padding-top:;
+    width: 1303px;
+    border: 1px solid gainsboro;
+    height: 902px;
+}
 .AA-CARD-1{
     border:2px solid gainsboro;
-    width: 520px;
+    width: 519px;
     height: 600px;
 }
 .AI-CARD-1{
@@ -506,9 +508,6 @@ margin-top: 7px;
 .AA-CARD-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding-left: 10px;
-    padding-right: 20px;
-    margin-right: 40px;
 }
 .PSS-11{
       width: 100%;
