@@ -59,8 +59,11 @@ ul{
 }
 ul li, a{
     text-decoration: none;
-    color: gainsboro;
+    color: white;
     padding:10px ;
+}
+li{
+    color: white;
 }
  a:hover{
     background-color: rgb(28, 199, 28);
@@ -225,7 +228,7 @@ ul li, a{
 }
 .title a{
     margin-right: 10px;
-    color: green;
+    color:green;
 }
 .Products{
     margin-top: 30px;
@@ -439,3 +442,108 @@ ul li, a{
 .pp-3{
     margin-top: 10px;
 }
+<<<<<<< HEAD
+=======
+.AAA-CARD-1 button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(30, 182, 30);
+    color: white;
+    border: none;
+}
+.AAA-CARD-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 45px;
+}
+h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+.B-CARD{
+    width: 1300px;
+    height: 600px;
+    border: none;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.BB-CARD{
+    width: 500px;
+    height: 500px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+}
+.BB-CARDIM-1{
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+     background-image: url(blue.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-left: 20px;
+     
+}
+.BB-CARDIM-2{
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+     background-image: url(Spinach\ Salad\ with\ Warm\ Bacon\ Dressing.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.BB-CARDIM-3{
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid blue;
+     background-image: url(Vegetable\ salad.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.BB-CARDET{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    color: green;
+}
+.pb a{
+    color:green ;
+    padding-top: 10px;
+}
+.pb, a{
+    margin-top: 10px;
+}
+
+/*STYLING THE SIXTH SECTION*/
+
+#sixth-section{
+    background-color: gainsboro;
+    height: 70vh;
+    margin-bottom: 100px;
+    padding-left:45px ;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+#sixth-section div{
+   border: 1px solid black;
+   height: 300px;
+   width: 400px;
+   display:flex;
+}
+>>>>>>> 844cee917fbb74d6cca999b4cd9f07b4648f1185
