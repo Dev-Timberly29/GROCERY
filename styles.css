@@ -155,6 +155,14 @@ li{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.h-2 .font-ize{
+    font-size: small;
+}
+.h-2 .font-siz{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 .h-1 a:hover{
     color: greenyellow;
     background-color: transparent;
