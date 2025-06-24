@@ -4,9 +4,19 @@
     padding: 0;
      font-family: "Roboto", sans-serif;
 }
-
+.TOP a{
+    margin-top: 10px;
+    color: rgb(187, 187, 187);
+}
 #section-1{
   height: auto;
+}
+.herp-d{
+    display: flex;
+    justify-content:space-between;
+    padding-left:45px;
+    padding-right: 30px;
+
 }
 .top-form input{
     padding: 9px;
@@ -216,7 +226,6 @@ li{
     color: green;
 }
 /*STYLING THE THIRD SECTION*/
-
 #section-3{
     padding-left:45px ;
     padding-right: 30px;
@@ -224,7 +233,6 @@ li{
     height: 95vh;
     border-bottom: none;
 }
-
 .title{
     width: 100%;
     display: flex;
@@ -270,9 +278,7 @@ li{
     margin-top: 10px;
     text-align: center;
 } 
-
 /*STYLING THE FOURTH SECTION*/
-
 #section-4{
     padding-left: 45px;
     padding-right: 30px;
@@ -312,7 +318,6 @@ li{
     border: none;
     margin-left:x;
 }
-
 .PSS-TEXT{
     margin-top: 190px;
     padding-left: 10px ;
@@ -351,7 +356,7 @@ li{
     margin-left: 10px;
 }
 .PSS-TEX{
-    margin-top: ;
+    margin-top:  10px ;
     padding-left: 10px ;
     padding-right: 10px;
     color: gainsboro;
@@ -365,7 +370,6 @@ li{
 .PSS-TEX .pp{
     margin-top: 10px;
 }
-
 .l-cardd{
     margin-top: 50px;
     width: 1295px;
@@ -403,14 +407,12 @@ li{
     width: 500px;
     height: 500px;
     border-radius: 10px;
-     background-image: url(picture/beaf.jpeg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding-top: 30px;
-     text-align: center;
+    background-image: url(picture/beaf.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    text-align: center;
 }
-
-
 .ll-cardd-3{
     background-color: aliceblue;
     width: 500px;
@@ -422,8 +424,6 @@ li{
     text-align: center;
     padding-top: 30px;
 }
-
-
 .pp-1{
     color: white;
 }
