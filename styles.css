@@ -324,10 +324,13 @@ li{
     padding-right: 10px;
     color: gainsboro;
     background-color:white;
+    display: table;
+    clear: both;
 }
 .PSS-TEXT .pn{
     color: black;
     margin-bottom:1px ;
+    margin-top: -10px;
     font-size: small;
 }
 .PSS-TEXT .pp{
@@ -336,21 +339,24 @@ li{
 .PSS-TEXT  i{
     padding: 5px;
     float: right;
+    margin-left: 100px;
     font-size: 20px;
-    margin-top: -29px;
+    margin-top: -19px;
     color: black;
 }
-.PSS-TEX i{
-    background-color:gainsboro;  
-    border: 1px solid black;
-    padding: 5px;
+.PSS-TEX i{  
+    display: grid;
+    place-items: center;
+    border: none;
+    display: table;
+    clear: both;
+    padding: 6px;
     width: 25px ;
     height: 25px;
-    border-radius: 50%;
     float: right;
     font-size: 20px;
     margin-top: -29px;
-    color: gainsboro;
+    color: black;
     margin-left: 10px;
 }
 .PSS-TEX{
