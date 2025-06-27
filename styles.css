@@ -301,7 +301,7 @@ li{
     background-color: white;
 }
 .PSS img{
-    height:230px ;
+    height:220px ;
     width: 100%;
     object-fit: cover;
 } 
@@ -309,7 +309,7 @@ li{
     box-shadow: 5px 5px 15px green;
 }
 .PSS  .button,button{
-    margin-top: -229px;
+    margin-top: -220px;
     z-index: 1px;
     background-color:rgb(255, 25, 0);
     color: white;
@@ -333,33 +333,33 @@ li{
 .PSS-TEXT .pp{
     margin-top: 10px;
 }
-.PSS-TEXT i{
-    background-color: gainsboro;
-    border: 1px solid black;
+.PSS-TEXT  i{
     padding: 5px;
-    border-radius: 50%;
     float: right;
     font-size: 20px;
     margin-top: -29px;
     color: black;
-
 }
 .PSS-TEX i{
-    background-color: gainsboro;
+    background-color:gainsboro;  
     border: 1px solid black;
     padding: 5px;
+    width: 25px ;
+    height: 25px;
     border-radius: 50%;
     float: right;
     font-size: 20px;
     margin-top: -29px;
-    color: black;
+    height: 25px;
+    width: 25px;
+    color: gainsboro;
     margin-left: 10px;
 }
 .PSS-TEX{
-    margin-top:  10px ;
+    margin-top:  10px;
     padding-left: 10px ;
     padding-right: 10px;
-    color: gainsboro;
+    color: black;
     background-color:white;
 }
 .PSS-TEX .pn{
@@ -449,4 +449,51 @@ li{
 }
 .pp-3{
     margin-top: 10px;
+}
+/*============styling the fifth section=============*/
+
+#section-5{
+    height: 200vh;
+    padding-top:10px;
+    padding-left: 45px;
+    padding-right: 35px;
+}
+
+#container{
+    border: 1px solid  gainsboro;
+    height: 600px;
+    display: flex;
+    width: 1300px;
+}
+
+.container-1{
+    border: 2px solid black;
+    width: 520px;
+    height: 600px;
+}
+.buton{
+    text-align: center;
+    display: flex;
+}
+#container-1{
+    border: 2px solid gainsboro;
+    width: 1303px;
+    height: 900px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 600px;
+}
+
+.container-3{
+    border: 1px solid gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+/*================styling the sixth section===========*/
+
+#section-6{
+    height: 100vh;
+    background-color: orange;
 }
